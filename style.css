@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+@keyframes glitch {
+    from {filter: none;}
+    to{filter: invert();}
+}
+
+body{
+    background-image: url(./assets/crows.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+#scribble{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: "Lacquer";
+    font-size: 40px;
+}
+
+#eye_holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eye{
+    animation: glitch 0.5s steps(3, end) infinite;
+    height: 200px;
+    width: 400px;   
+}
