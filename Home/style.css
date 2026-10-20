@@ -21,30 +21,44 @@
     to{opacity: 1;}
 }
 
+@keyframes btnHover{
+    from{box-shadow: none;}
+    to{box-shadow: 0px 0px 25px 3px rgba(208, 208, 195, 0.886);}
+}
+
 body{
-    animation: glitchBG 3s steps(1, end) infinite;
+    /* animation: glitchBG 3s steps(1, end) infinite; */
     background-color: black;
     color: white;
     font-family: "Special Elite";
 }
 
 .options{
+    animation: glitch 3s steps(1, end) infinite; 
     font-family: "Special Elite";
     font-size: 20px;
     height: 35px;
     width: auto;
 }
 
+.options:hover{
+    animation: btnHover 0.15s linear forwards;
+}
+
 #homeplate{
-    animation: glitch 3s steps(1, end) infinite;
+    opacity: 0;
     padding-top: 80px;
     font-size: 35px;
     margin: 0 auto;
     text-align: center;
 }
 
+#text{
+    animation: glitch 3s steps(1, end) infinite;
+}
+
 #itemsTray{
-    animation: glitch 3s steps(1, end) infinite; 
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 0;

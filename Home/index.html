@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Home</title>
 </head>
 <body>
-    <div id="homeplate">Come back Home, poor child... You will die, it is ineveitable... Or is it... </div>
+    <div id="homeplate">
+        <div id="text">
+            Come back Home, poor child... You will die, it is ineveitable...
+        </div>
+    </div>
 
     <div id="itemsTray">
-        <button class="options">Go to the alter</button>
+        <button class="options">Go to the window</button>
         <button class="options">Walk Around</button>
-        <button class="options">"I am Hungry"</button>
+        <button onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')" class="options" style="width: 110px;">...</button>
     </div>
 </body>
 </html>

@@ -56,3 +56,12 @@ body{
     font-size: 25px;
     padding: 10px;
 }
+
+@keyframes btnHover{
+    from{background-color: black; color: aliceblue;}
+    to{background-color: white; color: black;}
+}
+
+#takeMehome:hover{
+    animation: btnHover 0.45s forwards;
+}
