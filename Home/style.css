@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Special+Elite&display=swap');
+
+@keyframes glitch{
+    78%{filter: invert(1);}
+    86%{filter: none;}
+    92%{filter: invert(1);}
+    95%{filter: none;}
+    97%{filter: invert(1);}
+}
+
+@keyframes glitchBG{
+    78%{background-color: aliceblue;}
+    86%{background-color: black;}
+    92%{background-color: aliceblue;}
+    95%{background-color: black;}
+    97%{background-color: aliceblue;}
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+body{
+    animation: glitchBG 3s steps(1, end) infinite;
+    background-color: black;
+    color: white;
+    font-family: "Special Elite";
+}
+
+.options{
+    font-family: "Special Elite";
+    font-size: 20px;
+    height: 35px;
+    width: auto;
+}
+
+#homeplate{
+    animation: glitch 3s steps(1, end) infinite;
+    padding-top: 80px;
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#itemsTray{
+    animation: glitch 3s steps(1, end) infinite; 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

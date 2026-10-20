@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Special+Elite&display=swap');
 
 @keyframes glitch {
-    from {filter: none;}
-    to{filter: invert();}
+    34%{filter: invert();}
+    48%{filter: none;}
+    54%{filter: invert();}
+    68%{filter: none;}
+    73%{filter: invert();}
+    97%{filter: none;}
+
 }
 
 body{
@@ -26,7 +31,7 @@ body{
 }
 
 #eye{
-    animation: glitch 0.5s steps(3, end) infinite;
+    animation: glitch 0.75s steps(1, end) infinite;
     height: 200px;
     width: 400px;   
 }

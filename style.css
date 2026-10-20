@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Special+Elite&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Special Elite";
+    padding-top: 0;
+}
+
+#warningPlate{
+    margin: 0 auto;
+    margin-top: 50vh;
+    transform: translateY(-100%);
+    text-align: center;
+}
+
+#warning{
+    font-size: 50px;
+    color: rgb(177, 2, 2);
+}
+
+#disclaimer{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#continue{
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-350%);
+}
+
+#confirmation{
+    font-size: 20px;
+    font-family: "Special Elite";
+}
