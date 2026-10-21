@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Special+Elite&display=swap');
+
+@keyframes glitch{
+    78%{filter: invert(1);}
+    86%{filter: none;}
+    92%{filter: invert(1);}
+    95%{filter: none;}
+    100%{filter: invert(1);}
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+body{
+    background-color: black;
+    font-family: "Special Elite";
+    color: aliceblue;
+    padding: 20px;
+}
+
+#dialog{
+    animation: fadeIn 3s linear forwards;
+    opacity: 0;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+#backyard{
+    opacity: 0;
+    animation: fadeIn 3s linear forwards;
+    margin: 0 auto;
+    display: block;
+    width: 40rem;
+    height: auto;
+    border-radius: 5px;
+}

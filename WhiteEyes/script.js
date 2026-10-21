@@ -28,11 +28,3 @@ eye.addEventListener('animationend', function(){
             }, 1000)
     }, 1000)
 })
-
-
-
-
-
-/* if(document.body.style.backgroundColor === "black"){
-    console.log("cleared")
-} */
