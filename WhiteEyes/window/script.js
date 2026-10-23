@@ -15,7 +15,7 @@ dialog.addEventListener('animationend', function(){
         setTimeout(function(){
             dialog.innerHTML= '"I should go back..."'
             setTimeout(function(){
-                window.location="3am/WhiteEyes/Home"
+                window.location="../Home"
             }, 3000)
         }, 6000)
     })
