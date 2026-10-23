@@ -6,12 +6,18 @@ const crash = new Audio('../assets/pianoCrash.mp3')
 dialog.addEventListener('animationend', function(){
     setTimeout(function(){
         backyard.style.opacity = 1;
-        backyard.style.animation = "glitch 4s steps(1, end) forwards";
+        backyard.style.animation = "glitch 3s steps(1, end) forwards";
     })
     backyard.addEventListener('animationend', function(){
         crash.play()
         dialog.innerHTML=""
-        dialog.innerHTML="Oh... what a silent graveyard..."
+        dialog.innerHTML="..."
+        setTimeout(function(){
+            dialog.innerHTML= '"I should go back..."'
+            setTimeout(function(){
+                window.location="../Home"
+            }, 3000)
+        }, 6000)
     })
 })
 
