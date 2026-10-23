@@ -3,6 +3,9 @@ const di1 = document.getElementById('di1');
 const di2 = document.getElementById('di2');
 const eye = document.getElementById('eye');
 const end = document.getElementById('endingLog')
+const root = document.getElementById('root')
+const creds = document.getElementById('creds')
+const piano  = new Audio('../assets/jumpscare.mp3')
 
 setTimeout(function() {
     di1.style.animation = 'fadeIn 2s linear forwards';
@@ -38,4 +41,13 @@ dialogues.addEventListener('animationend', function(event) {
             end.style.animation = 'fadeIn 2s linear forwards'
         }, 2000)
     }, 1000);
+
+    end.addEventListener('animationend', function(){
+        setTimeout(function(){
+            root.style.display = 'none'
+            creds.style.display = 'block'
+            piano.play()
+
+        }, 3000)
+    })
 });
