@@ -1,4 +1,6 @@
 # WhiteEyes
+![Demo](./assets/readmeImg.gif)
+
 WhiteEyes is a chilling ARG made for Boba Bash X 3AM
 It Follows the story of the cult WhiteEyes. <br>
 This is a part of a bigger ARG I will be making.
@@ -11,6 +13,9 @@ This is a part of a bigger ARG I will be making.
 ### Play online
 Go onto [WhiteEyes](https://thedespicablejam.github.io/WhiteEyes/) to play.<br>
 
+# Inspiration
+To be very honest... I dont know what made me think that I should make it but I did, and here is the result. <br>
+But I think a major part of my inspiration could have been Online ARGs and youtube conspiracy theories. <br> I always loved watching this type of content so that may have influenced me into making a prototype for an ARG I might keep working on in the future :)
 
 # Tech Stack and Design
 
@@ -28,6 +33,7 @@ So to get a basic idea of this version I used the vanilla web dev tech stack
 <li>CSS</li>
 </ul>
 
+![eye](./assets/readmeEye.png)
 # Project Status
 WhiteEyes is an ongoing project, with this initial site being a part of a bigger ARG as stated earlier. <br>
 Though I like what I have built I would like to further refine the idea in later releases.
